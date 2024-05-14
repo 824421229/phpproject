@@ -1,0 +1,180 @@
+.content {
+  width: 1140px;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .left {
+  width: 820px;
+}
+.content .right {
+  width: 300px;
+}
+
+.content .post {
+  background-color: #fff;
+  padding: 15px;
+  overflow: auto;
+}
+
+.post_title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.user_box {
+  background-color: #fff;
+  padding: 20px;
+}
+.user_box .user {
+  display: flex;
+}
+.user_box .user .hander {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.user_box .user .user_info .user_name {
+  color: #515767;
+}
+.user_box .user .user_info .data {
+  color: #89929e;
+  font-size: 14px;
+}
+
+.content > .right {
+  height: 250px;
+  position: sticky;
+  top: 75px;
+}
+
+.right .user_data {
+  background-color: #fff;
+  margin-top: 15px;
+  font-size: 14px;
+  padding: 20px;
+  color: #252933;
+}
+.right .btn_box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.right .btn_box .btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+.right .btn_box .btn.active {
+  background-color: #ff4c3522;
+}
+
+.right .btn_box .btn img {
+  width: 23px;
+  height: 23px;
+}
+
+.discuss {
+  margin-top: 15px;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.discuss_title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.discuss_input textarea {
+  box-sizing: border-box;
+  resize: none;
+  height: 64px;
+  width: 100%;
+  background-color: #f2f3f5;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.discuss_input .btn_box {
+  text-align: right;
+}
+
+.discuss_input .btn_box button {
+  width: 120px;
+}
+
+.discuss_list .item {
+  display: flex;
+  padding: 7px 0;
+  border-bottom: 1px solid #f2f3f5;
+}
+.discuss_list .item .hander {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.discuss_list .item > div {
+  flex: 1;
+}
+.discuss_list .item .user_info {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.discuss_list .item .user_info .user {
+  display: flex;
+  align-content: center;
+}
+
+.discuss_list .item .user_info .user .sign {
+  font-size: 12px;
+  color: #89929e;
+  margin-left: 10px;
+}
+.discuss_details {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.report_box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00000035;
+  display: none;
+}
+.report_box .report {
+  background-color: #fff;
+  border-radius: 2px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+.report_box .report textarea {
+  width: 300px;
+  height: 120px;
+  background-color: #f2f3f5;
+  padding: 10px;
+  margin: 10px;
+}
+.report_box .report .btn_box {
+  text-align: center;
+}
+.report_box .report .btn_box button {
+  margin: 0 10px;
+}

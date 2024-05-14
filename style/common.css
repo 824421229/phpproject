@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  background-color: #f4f5f5;
+  color: #333;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+button {
+  border: 1px solid #ff5722;
+  background-color: transparent;
+  color: #ff5722;
+  background-color: #ffd9d4;
+  font-size: 14px;
+  width: 66px;
+  height: 36px;
+  cursor: pointer;
+}
+.btn2 {
+  color: #01aaed;
+  border-color: #01aaed;
+  background-color: #caeefa;
+}
+.normal_btn {
+  color: #666666;
+  border-color: #d2d2d2;
+  background-color: #fff;
+}
+
+select {
+  outline: none;
+  height: 32px;
+  border-radius: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea {
+  border: none;
+  outline: none;
+}
